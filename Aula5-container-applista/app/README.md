@@ -1,3 +1,11 @@
+https://hub.docker.com/repository/docker/diogenescasale/applista/general
+
+## Comandos necessários no prompt:
+
+* docker build -t diogenescasale/applista .
+* docker run -d -p 8080:80 --name meu-container-php diogenescasale/applista
+
+
 # Projeto Aplicação PHP com Docker
 
 Este projeto contém uma aplicação web simples em PHP que se conecta a um banco de dados MySQL. Todo o ambiente (Servidor Web Apache, PHP, e MySQL) é configurado para ser executado dentro de um contêiner Docker, garantindo portabilidade e facilidade de uso.
@@ -71,5 +79,6 @@ docker push <seu-usuario>/diogenes-app:latest
 ```
 
 Após o envio ser concluído, o endereço do seu repositório será:
+
 
 **`https://hub.docker.com/r/<seu-usuario>/diogenes-app`**
